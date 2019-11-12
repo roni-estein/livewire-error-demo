@@ -1,0 +1,123 @@
+/* Reset */
+@tailwind base;
+@import "reset.css";
+
+/* Components */
+@tailwind components;
+@import "form.css";
+@import "button.css";
+/*@import "nprogress.css";*/
+
+/* Utilities */
+@tailwind utilities ;
+
+[v-cloak] {
+  @apply .hidden
+}
+
+/** {*/
+/*  border: 1px solid deeppink;*/
+/*}*/
+
+/*.hero{*/
+/*  @apply .h-96 .text-white*/
+/*}*/
+
+/*@screen md{*/
+/*  .hero {*/
+/*    @apply h-128*/
+/*  }*/
+/*}*/
+
+h1,h2,h3,h4,h5,h6{
+  font-family: Montserrat;
+  font-weight: 300;
+}
+
+h1 > b,h2 > b,h3 > b,h4 > b,h5 > b,h6 > b{
+  font-weight: 700;
+}
+
+
+
+.shadow-1 {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.shadow-1:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.shadow-2 {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.shadow-3 {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.shadow-4 {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+
+
+
+/*.fit-cover{ object-fit: cover; }*/
+/*.fit-contain{ object-fit: contain; }*/
+/*.fit-fill{ object-fit: fill; }*/
+/*.fit-none{ object-fit: none; }*/
+/*.fit-inherit{ object-fit: inherit; }*/
+/*.fit-initial{ object-fit: initial; }*/
+/*.fit-unset{ object-fit: unset; }*/
+/*.fit-scale-down{ object-fit: scale-down; }*/
+
+/*.pos-ct{ object-position: center top; }*/
+/*.pos-cb{ object-position: center bottom; }*/
+/*.pos-lt{ object-position: left top; }*/
+/*.pos-lc{ object-position: left center; }*/
+/*.pos-lb{ object-position: left bottom; }*/
+/*.pos-rt{ object-position: right top; }*/
+/*.pos-rc{ object-position: right center; }*/
+/*.pos-rb{ object-position: right bottom; }*/
+/*.pos-inherit{ object-position: inherit; }*/
+/*.pos-initial{ object-position: initial; }*/
+/*.pos-unset{ object-position: unset; }*/
+
+
+/*.transition-300 {*/
+/*  transition: all;*/
+/*  transition-duration: 300ms;*/
+/*}*/
+
+/*.transition-500 {*/
+/*  transition: all;*/
+/*  transition-duration: 500ms;*/
+/*}*/
+
+/*.transition-700 {*/
+/*  transition: all;*/
+/*  transition-duration: 700ms;*/
+/*}*/
+
+/*.transition-900 {*/
+/*  transition: all;*/
+/*  transition-duration: 900ms;*/
+/*}*/
+
+
+
+/*.modal-enter {*/
+/*  opacity: 0;*/
+/*}*/
+
+/*.modal-leave-active {*/
+/*  opacity: 0;*/
+/*}*/
+
+/*.modal-enter .modal-container,*/
+/*.modal-leave-active .modal-container {*/
+/*  -webkit-transform: scale(1.1);*/
+/*  transform: scale(1.1);*/
+/*}*/

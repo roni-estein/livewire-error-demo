@@ -1,0 +1,20 @@
+
+/*input, select, textarea, button, div, a {*/
+/*  &:focus, &:active {*/
+/*    outline: none;*/
+/*  }*/
+/*}*/
+
+body  {
+  @apply font-sans text-base text-gray-700
+}
+
+body.modal-open{
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: 'Avenir Next';
+  src: local('Avenir Next');
+  src: url('/fonts/AvenirNextLTPro-Regular.otf');
+}

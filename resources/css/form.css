@@ -1,0 +1,15 @@
+/** FORMS **/
+.form-label{
+  @apply text-xx uppercase tracking-wide font-bold font-sans
+}
+
+
+/*ERROR STATES*/
+.form-label.error{
+  @apply text-red-500
+}
+
+.form-input-required.error, .form-input.error,
+.form-select-required.error, .form-select.error{
+  @apply border-red-400;
+}
