@@ -17,10 +17,12 @@ What I really want to know is what you are doing diffferntly than I am! If this 
 
 #### Noting here but just to remove errors
 `touch database/database.sqlite`
+
 `migrate`
 
 #### composer and yarn (I use yarn, and I think I've edited this package.json)
 `composer install`
+
 `yarn run dev' or watch`
 
 Hopefully there is no valet or homestead conflict for you. It's just called test. I should have renamed it :(
