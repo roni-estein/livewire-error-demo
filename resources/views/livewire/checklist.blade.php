@@ -20,7 +20,7 @@
                                 <label class="ml-8 flex items-center mt-2">
                                     <input type="checkbox"
                                            wire:model.lazy="tasks.{{ $title }}.{{ $key }}.{{ $childKey }}"
-                                           class="form-checkbox" @selected($tasks[$title][$key][$childKey],1)>
+                                           class="form-checkbox">
                                     <span class="ml-2">{{ str_replace('_',' ',$childKey) }}</span>
                                 </label>
                             @endif
@@ -32,7 +32,7 @@
                         @else
                             <label class="flex items-center mt-2">
                                 <input type="checkbox" wire:model.lazy="tasks.{{ $title }}.{{ $key }}"
-                                       class="form-checkbox" @selected($tasks[$title][$key],1)>
+                                       class="form-checkbox">
                                 <span class="ml-2">{{ str_replace('_',' ',$key) }}</span>
                             </label>
                         @endif
