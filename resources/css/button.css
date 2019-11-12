@@ -1,13 +1,14 @@
 .btn {
-  @apply px-6 py-3 rounded text-sm font-bold whitespace-no-wrap;
+  @apply px-6 py-3 text-sm font-semibold whitespace-no-wrap shadow-lg;
 
-  &.indigo{
-     @apply bg-indigo-800 text-white;
+  &.brand{
+     @apply bg-brand-600 text-white;
 
-     &:hover { @apply bg-indigo-600 }
+     &:hover { @apply bg-brand-400}
 
-     &:focus { @apply bg-orange-500   }
+     &:active { @apply bg-brand-700  shadow outline-none }
 
+     &:disabled { @apply bg-gray-400 text-gray-500 shadow outline-none }
   }
 }
 
